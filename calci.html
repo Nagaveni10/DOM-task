@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calci.css">
+    <script src="calci.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" id="screen"></td>
+        </tr>
+        <tr>
+            <td class="keys"><span onclick="dis('7')" tabindex="34" class="num">7</span></td>
+            <td class="keys"><span onclick="dis('8')" tabindex="34" class="num">8</span></td>
+            <td class="keys"><span onclick="dis('9')" tabindex="34" class="num">9</span></td>
+            <td class="keys"><span onclick="clr()" tabindex="34" class="opt">C</span></td>
+        </tr>
+        <tr>
+            <td class="keys"><span onclick="dis('4')" tabindex="34" class="num">4</span></td>
+            <td class="keys"><span onclick="dis('5')" tabindex="34" class="num">5</span></td>
+            <td class="keys"><span onclick="dis('6')" tabindex="34" class="num">6</span></td>
+            <td class="keys"><span onclick="dis('%')" tabindex="34" class="opt">%</span></td>
+        </tr>
+        <tr>
+            <td class="keys"><span onclick="dis('1')" tabindex="34" class="num">1</span></td>
+            <td class="keys"><span onclick="dis('2')" tabindex="34" class="num">2</span></td>
+            <td class="keys"><span onclick="dis('3')" tabindex="34" class="num">3</span></td>
+            <td class="keys"><span onclick="dis('/')" tabindex="34" class="opt">/</span></td>
+        </tr>
+        <tr>
+            <td class="keys"><span onclick="dis('0')" tabindex="34" class="num">0</span></td>
+            <td class="keys"><span onclick="dis('+')" tabindex="34" class="opt">+</span></td>
+            <td class="keys"><span onclick="dis('-')" tabindex="34" class="opt">-</span></td>
+            <td class="keys"><span onclick="dis('*')" tabindex="34" class="opt">x</span></td>
+        </tr>
+        <tr class="keys">
+            <td><span onclick="dis('.')" tabindex="34" class="num">.</span></td>
+            <td colspan="3" onclick="solve()" tabindex="34" class="eval">=</td>
+        </tr>
+    </table>
+</body>
+
+</html>
