@@ -6,12 +6,12 @@ function solve() {
     const validkeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '+', '-', '*', '/', '%']
 
     let x = document.getElementById("screen").value;
-    //if (x === validkeys) {
+    // if (isNaN(x)) {
+    //     alert('Only Numbers are allowed');
+    // }
     let y = eval(x);
     document.getElementById("screen").value = y;
-    //} else {
-    //    alert('Only Numbers are allowed');
-    //    }
+
 }
 
 function clr() {
@@ -19,4 +19,4 @@ function clr() {
 }
 
 //$(.eval).keydown(solve());
-//document.getElementsByClassName("eval").click();
+document.getElementsByClassName("eval").click();

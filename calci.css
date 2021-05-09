@@ -1,6 +1,7 @@
 body {
     margin: 100px 585px 100px 585px;
     border: 5px solid black;
+    position: fixed;
 }
 
 
@@ -34,6 +35,14 @@ body {
 }
 
 .keys span.opt {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: rgb(152, 204, 204);
+    color: rgb(44, 44, 42);
+    font-weight: 500;
+}
+
+.keys span.clr {
     padding: 5px;
     border: 2px solid white;
     background-color: rgb(152, 204, 204);
